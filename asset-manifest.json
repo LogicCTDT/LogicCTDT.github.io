@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/LogicCTDT.github.io/static/css/main.384ea53d.css",
-    "main.js": "/LogicCTDT.github.io/static/js/main.dd9c8a60.js",
-    "static/js/787.34761b34.chunk.js": "/LogicCTDT.github.io/static/js/787.34761b34.chunk.js",
-    "static/media/Ricky Zhang Resume - Computer Science.pdf": "/LogicCTDT.github.io/static/media/Ricky Zhang Resume - Computer Science.aa8ea0014d19731f8c71.pdf",
-    "static/media/StarryBackground.jpeg": "/LogicCTDT.github.io/static/media/StarryBackground.467931812ddb54e7faf1.jpeg",
-    "index.html": "/LogicCTDT.github.io/index.html",
-    "main.384ea53d.css.map": "/LogicCTDT.github.io/static/css/main.384ea53d.css.map",
-    "main.dd9c8a60.js.map": "/LogicCTDT.github.io/static/js/main.dd9c8a60.js.map",
-    "787.34761b34.chunk.js.map": "/LogicCTDT.github.io/static/js/787.34761b34.chunk.js.map"
+    "main.css": "/profilewebsite/static/css/main.384ea53d.css",
+    "main.js": "/profilewebsite/static/js/main.91ce32c0.js",
+    "static/js/787.34761b34.chunk.js": "/profilewebsite/static/js/787.34761b34.chunk.js",
+    "static/media/Ricky Zhang Resume - Computer Science.pdf": "/profilewebsite/static/media/Ricky Zhang Resume - Computer Science.aa8ea0014d19731f8c71.pdf",
+    "static/media/StarryBackground.jpeg": "/profilewebsite/static/media/StarryBackground.467931812ddb54e7faf1.jpeg",
+    "index.html": "/profilewebsite/index.html",
+    "main.384ea53d.css.map": "/profilewebsite/static/css/main.384ea53d.css.map",
+    "main.91ce32c0.js.map": "/profilewebsite/static/js/main.91ce32c0.js.map",
+    "787.34761b34.chunk.js.map": "/profilewebsite/static/js/787.34761b34.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.384ea53d.css",
-    "static/js/main.dd9c8a60.js"
+    "static/js/main.91ce32c0.js"
   ]
 }
