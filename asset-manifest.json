@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.384ea53d.css",
+    "main.js": "/static/js/main.88bb35bd.js",
+    "static/js/787.34761b34.chunk.js": "/static/js/787.34761b34.chunk.js",
+    "static/media/Ricky Zhang Resume - Computer Science.pdf": "/static/media/Ricky Zhang Resume - Computer Science.aa8ea0014d19731f8c71.pdf",
+    "static/media/StarryBackground.jpeg": "/static/media/StarryBackground.467931812ddb54e7faf1.jpeg",
+    "index.html": "/index.html",
+    "main.384ea53d.css.map": "/static/css/main.384ea53d.css.map",
+    "main.88bb35bd.js.map": "/static/js/main.88bb35bd.js.map",
+    "787.34761b34.chunk.js.map": "/static/js/787.34761b34.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.384ea53d.css",
+    "static/js/main.88bb35bd.js"
+  ]
+}
