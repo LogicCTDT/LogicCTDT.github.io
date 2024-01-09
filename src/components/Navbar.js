@@ -19,9 +19,6 @@ const location = useLocation();
         /// p-4 py-10 bg-gradient-to-r from-indigo-600 to-fuchsia-700 text-xl relative
         // Navbar doesn't work for small screen sizes, change later
         <nav className= {containerClasses}>
-                <div className="inline-block h-full align-middle">
-                    <div className="absolute left-0 font-bold text-gray-50 text-opacity-50 rounded-full mr-2">Profile Picture </div>
-                </div> 
                 <div className="inline-block w-full mx-auto font-medium align-middle text-gray-400">
                     <Link className='mx-10' to="/"> About Me </Link>
                     <Link className='mx-10' to="/ResumePage"> Resume </Link>

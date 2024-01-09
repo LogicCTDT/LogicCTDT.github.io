@@ -3,8 +3,10 @@ import Navbar from './Navbar.js';
 import Background1 from './Background1.js';
 
 const Home = () => {
+  
+  
     return(
-    <div className="text-center h-screen">
+    <div className="text-center h-[300vh]">
       
     <Navbar />
     
