@@ -2,8 +2,14 @@ import React from 'react';
 import Links from './Links.js';
 import { useEffect} from 'react';
 import { useState } from 'react';
+import milestones from 'd3-milestones';
+import './VerticalTimeline.css';
 
 export const AboutMe = () => {
+    
+    // render timeline 
+    
+   
     
     const [transformValue, setTransformValue] = useState(80);
 
@@ -15,6 +21,36 @@ export const AboutMe = () => {
     };
 
     useEffect(() => {
+        
+        const vis = milestones('#wrapper');
+            
+            vis.aggregateBy('year')
+            vis.mapping({
+                timestamp: "year",
+                text: "title"
+              })
+            vis.parseTime("%Y")
+            vis.optimize(true)
+            vis.orientation('vertical')
+            vis.render([
+                {
+                  "year": 981,
+                  "title": "Viking leader Erik the Red discovers Greenland."
+                },
+                {
+                  "year": 986,
+                  "title": "Viking ships sail in Newfoundland waters."
+                },
+                {
+                  "year": 995,
+                  "title": "Olav I conquers Norway and proclaims it a Christian kingdom."
+                },
+                {
+                  "year": 1066,
+                  "title": "Battle of Hastings."
+                }
+              ]);
+        
         const handleScroll = () => {
             const newTransformValue = calculateYourValue(window.scrollY);
             setTransformValue(newTransformValue);
@@ -44,6 +80,7 @@ export const AboutMe = () => {
                 {/** consider uploading a video of me playing the piano. No face though.*/} 
                 <Links />
             </div>
+            <div className='h-[70vh] justify-self-center' id='wrapper'/> 
 
         </div>
 
@@ -51,5 +88,9 @@ export const AboutMe = () => {
     );
 
 }
+
+
+
+
 
 export default AboutMe;

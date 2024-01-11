@@ -1,0 +1,16 @@
+div .milestones {
+    flex: 1; 
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.milestones__vertical_line {
+
+}
+
+.milestones__group {
+
+}
