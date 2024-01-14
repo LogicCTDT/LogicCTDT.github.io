@@ -1,12 +1,12 @@
 
 import './App.css';
 import React from 'react'; 
-import Navbar from './components/Navbar.js';
-import Background1 from './components/Background1.js'
+import Navbar from './components/AppElements/Navbar.js';
+import Background1 from './components/AppElements/Background1.js'
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home.js'
-import ResumePage from './components/Resume'
+import Home from './components/AppElements/Home.js'
+import ResumePage from './components/AppElements/Resume.js'
 import {
   createBrowserRouter,
   RouterProvider,

@@ -1,5 +1,5 @@
 
-import ResumeFile from './Ricky Zhang Resume - Computer Science.pdf'
+import ResumeFile from '../Ricky Zhang Resume - Computer Science.pdf'
 import Navbar from './Navbar'
 
 const Resume = () => {

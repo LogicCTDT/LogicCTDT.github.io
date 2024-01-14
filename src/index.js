@@ -7,8 +7,8 @@ import {
   createHashRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './components/Home.js'
-import ResumePage from './components/Resume'
+import Home from './components/AppElements/Home.js'
+import ResumePage from './components/AppElements/Resume.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createHashRouter([

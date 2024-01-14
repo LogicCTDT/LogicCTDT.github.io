@@ -1,4 +1,4 @@
-import background from './Repeating Starry Night.avif'
+import background from '../Images/Cavey Background.avif'
 import { useState } from 'react';
 import AboutMe from "./AboutMe.js";
 
@@ -23,7 +23,7 @@ export const Background1 = () => {
     <div className="bg-fixed p-20 w-full h-full bg-repeat justify-center
     overflow-x-auto overflow-y-auto flex "  onMouseMove={handleMouseMove}  style={{backgroundImage: `url('${background}')`, 
      
-    backgroundPosition: `${position.x + xConst()}%`,}}>
+    backgroundPosition: `${position.x + xConst()}%`, backgroundSize: '110% 100%'}}>
         <AboutMe />
     </div>
     

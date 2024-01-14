@@ -22,7 +22,9 @@ const location = useLocation();
                 <div className="inline-block w-full mx-auto font-medium align-middle text-gray-400">
                     <Link className='mx-10' to="/"> About Me </Link>
                     <Link className='mx-10' to="/ResumePage"> Resume </Link>
-                    <a className="mx-10" href="#Fun Project">Fun Project</a>
+                    <a className="mx-10" href="#Skills">Skills</a>
+                    <a className="mx-10" href="#Fun Project">Projects</a>
+               
                 
                 </div> 
     
