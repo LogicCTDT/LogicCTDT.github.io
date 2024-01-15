@@ -38,7 +38,7 @@ export const Skills = () => {
 <path d="M16.5 12C16.5 11.1716 17.1716 10.5 18 10.5C18.8284 10.5 19.5 11.1716 19.5 12C19.5 12.8284 18.8284 13.5 18 13.5C17.1716 13.5 16.5 12.8284 16.5 12Z"/>
 </svg>;
     return(
-        <div className="w-screen h-screen text-center" style={{backgroundColor: 'rgb(245, 253, 198)'}}>
+        <div className="min-w-screen min-h-screen text-center" style={{backgroundColor: 'rgb(245, 253, 198)'}}>
             <Navbar />
             <div className="p-20">
                 <SkillBox svgIcon={pythonIcon} text={'I have two years of experience in Python. I use it for coding challenges and AI/ML.  It is my first and favourite language!'} icons={<PythonLibraryIcons />} />
