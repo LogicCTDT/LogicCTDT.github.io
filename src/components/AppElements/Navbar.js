@@ -13,6 +13,8 @@ const location = useLocation();
     containerClasses = 'w-full py-3 border-gray-400 z-10 bg-pdf items-center'; // Apply red background for the home route
   } else if (location.pathname === '/') {
     containerClasses = 'w-full backdrop-filter backdrop-blur-lg bg-opacity-30 border-b py-3 border-gray-400 fixed top-0 z-10 bg-gray-500 items-center'; // Apply blue background for the about route
+  } else if (location.pathname === '/Skills') {
+    containerClasses = 'w-full backdrop-filter backdrop-blur-lg bg-opacity-30 border-b py-3 border-gray-400 fixed top-0 z-10 bg-dark-moss-green items-center'; // Apply blue background for the about route
   }
     return (
         // I want to create a navbar element, that has different actions if i'm active. 
@@ -20,10 +22,10 @@ const location = useLocation();
         // Navbar doesn't work for small screen sizes, change later
         <nav className= {containerClasses}>
                 <div className="inline-block w-full mx-auto font-medium align-middle text-gray-400">
-                    <Link className='mx-10' to="/"> About Me </Link>
-                    <Link className='mx-10' to="/ResumePage"> Resume </Link>
-                    <a className="mx-10" href="#Skills">Skills</a>
-                    <a className="mx-10" href="#Fun Project">Projects</a>
+                    <Link className='no-underline text-gray-400 font-medium mx-10' to="/"> About Me </Link>
+                    <Link className='no-underline text-gray-400 font-medium mx-10' to="/ResumePage"> Resume </Link>
+                    <Link className="no-underline text-gray-400 font-medium mx-10" to="/Skills">Skills</Link>
+                    <a className="no-underline text-gray-400 font-medium mx-10" href="#Fun Project">Projects</a>
                
                 
                 </div> 

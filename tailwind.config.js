@@ -12,6 +12,8 @@ module.exports = {
     },
     extend: {colors: {
       'pdf': '#31363a',
+      'ecru': '#a89f68',
+      'dark-moss-green' :'#41521F',
     },
   },
   },

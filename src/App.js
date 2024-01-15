@@ -1,18 +1,14 @@
 
 import './App.css';
 import React from 'react'; 
-import Navbar from './components/AppElements/Navbar.js';
-import Background1 from './components/AppElements/Background1.js'
-
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/AppElements/Home.js'
 import ResumePage from './components/AppElements/Resume.js'
 import {
   createBrowserRouter,
-  RouterProvider,
 } from "react-router-dom";
-import { createRoot } from "react-dom/client";
+
 import "./index.css";
+import Skills from './components/AppElements/Skills.js';
 // TODO: Make the Resume portion of the website, and start applying to shit.
 // Add resume portion in the readme as a hyperlink. Remove from navbar. 
 // Write navbar and resume portion.
@@ -31,6 +27,9 @@ const router = createBrowserRouter([
   },
   { path: "/ResumePage",
     element: <ResumePage />,
+  },
+  { path: "/Skills",
+    element: <Skills />
   }
 ]);
 

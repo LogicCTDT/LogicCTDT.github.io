@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Home from './components/AppElements/Home.js'
 import ResumePage from './components/AppElements/Resume.js'
+import Skills from './components/AppElements/Skills.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createHashRouter([
@@ -18,6 +19,9 @@ const router = createHashRouter([
   },
   { path: "/ResumePage",
     element: <ResumePage />,
+  },
+  { path: "/Skills",
+    element: <Skills />
   }
 ]);
 root.render(
