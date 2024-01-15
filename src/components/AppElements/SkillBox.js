@@ -17,9 +17,13 @@ export const SkillBox = (props) => {
             {props.svgIcon}
             </Button>
             <Collapse in={open}>
-                <div className="flex flex-col items-center justify-between space-y-5">
+                <div className="flex flex-col items-center justify-between space-y-7">
                     {props.text}
+                    
+                    {props.icons}
+                    
                 </div>
+                
                 {/* need to add some code that allows me to add as many icons as I want side by side, probably done using .map*/}
             </Collapse>
         </div>
