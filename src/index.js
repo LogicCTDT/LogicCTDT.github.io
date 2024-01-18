@@ -10,6 +10,7 @@ import {
 import Home from './components/AppElements/Home.js'
 import ResumePage from './components/AppElements/Resume.js'
 import Skills from './components/AppElements/Skills.js';
+import Project from './components/AppElements/Project.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createHashRouter([
@@ -22,6 +23,9 @@ const router = createHashRouter([
   },
   { path: "/Skills",
     element: <Skills />
+  },
+  { path: "/Projects",
+    element: <Project />
   }
 ]);
 root.render(
