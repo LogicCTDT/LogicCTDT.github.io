@@ -1,12 +1,24 @@
 import React from 'react'; 
 import Navbar from './Navbar.js';
 import Background1 from './Background1.js';
+import { useState, useEffect } from 'react';
+
 
 const Home = () => {
-  
-  
+    const [contentHeight, setContentHeight] = useState(500);
+    const updateContentHeight = () => {
+      const content = document.getElementById('timeline-content');
+      if (content) {
+        setContentHeight(content.scrollHeight);
+      }
+    };
+    useEffect(() => {
+        
+      updateContentHeight();
+
+  }, []);
     return(
-    <div className="text-center h-[300vh]">
+    <div id='rootnode' className={`text-center h-[${contentHeight}vh]`}>
       
     <Navbar />
     

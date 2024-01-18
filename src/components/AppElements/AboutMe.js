@@ -11,24 +11,22 @@ export const AboutMe = () => {
     // render timeline 
     
    
-    
-    const [transformValue, setTransformValue] = useState(87);
+    const [transformValue, setTransformValue] = useState(-87);
 
     // Function to calculate the transform value
     const calculateYourValue = (scrollY) => {
         //default 75. want to lower
-        return 87 - scrollY/37
+        return -(87 - scrollY/40)
 
     };
+
 
     useEffect(() => {
         
         const handleScroll = () => {
             const newTransformValue = calculateYourValue(window.scrollY);
             setTransformValue(newTransformValue);
-        };
-
-        // Add scroll event listener
+        };        // Add scroll event listener
         window.addEventListener('scroll', handleScroll);
 
         // Clean up the event listener
@@ -36,9 +34,9 @@ export const AboutMe = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-        
+    
     return (
-        <div className="w-4/5 text-slate-100 items-center align-bottom flex flex-col fixed h-[500vh] justify-end" style={{transform: `translateY(-${transformValue}%)`}}>
+        <div className= {`w-4/5 text-slate-100 items-center align-bottom flex flex-col fixed justify-end`} style={{transform: `translateY(${transformValue}%)`}}>
             <div className="order-last w-3/5 h-[30vh] text-center items-center flex flex-col justify-between space-y-10">
               <div className="flex items-center justify-between space-x-16">
                 <img className="justify-content-center rounded-3xl my-8px border-2 border-black" src={profilePicture} width={200} height={200} alt="Logo" />
@@ -55,7 +53,7 @@ export const AboutMe = () => {
                 {/** consider uploading a video of me playing the piano. No face though.*/} 
               <Links />
             </div>
-            <VerticalTimelineComponent />
+            <VerticalTimelineComponent/>
 
         </div>
 

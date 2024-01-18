@@ -9,7 +9,7 @@ import VerticalTimelineElementSchool from '../VerticalTimelineElements/VerticalT
 
 export const VerticalTimelineComponent = () => {
     return(
-        <VerticalTimeline className='bottom-20' animate={true}>
+        <VerticalTimeline id='timeline-content' className='bottom-20' animate={true}>
             
             {/*  */} 
             <VerticalTimelineElementHobby activityTitle="Exercise" activityDescription="Acheived first pull-up" time="December 2023" />

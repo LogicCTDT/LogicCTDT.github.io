@@ -1,4 +1,4 @@
-import { PythonLibraryIcons } from "./PythonLibraryIcons";
+import { PythonLibraryIcons } from "./LibraryIcons/PythonLibraryIcons";
 import Navbar from "./Navbar";
 import { SkillBox } from "./SkillBox";
 

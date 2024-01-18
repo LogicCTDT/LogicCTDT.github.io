@@ -9,3 +9,7 @@
 .libicon {
     fill: #41521F;
 }
+
+.text_black > p {
+    color: black
+}

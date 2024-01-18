@@ -14,6 +14,10 @@ module.exports = {
       'pdf': '#31363a',
       'ecru': '#a89f68',
       'dark-moss-green' :'#41521F',
+      'project_color': '#D4A373',
+      'dark-brown': '#5B5634',
+      'project_end_color': '#faedcd',
+      'light-moss-green': '#f5fdc6'
     },
   },
   },
