@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.058147f2.css",
-    "main.js": "/static/js/main.85f58e8a.js",
+    "main.css": "/static/css/main.84fdd12a.css",
+    "main.js": "/static/js/main.ce2400c3.js",
     "static/js/787.34761b34.chunk.js": "/static/js/787.34761b34.chunk.js",
     "static/media/Ricky Zhang Resume - Computer Science.pdf": "/static/media/Ricky Zhang Resume - Computer Science.aa8ea0014d19731f8c71.pdf",
     "static/media/Cavey Background.avif": "/static/media/Cavey Background.775b4ab1e5490a84b317.avif",
     "static/media/me.jpg": "/static/media/me.da8b107312fd244fa72e.jpg",
     "index.html": "/index.html",
-    "main.058147f2.css.map": "/static/css/main.058147f2.css.map",
-    "main.85f58e8a.js.map": "/static/js/main.85f58e8a.js.map",
+    "main.84fdd12a.css.map": "/static/css/main.84fdd12a.css.map",
+    "main.ce2400c3.js.map": "/static/js/main.ce2400c3.js.map",
     "787.34761b34.chunk.js.map": "/static/js/787.34761b34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.058147f2.css",
-    "static/js/main.85f58e8a.js"
+    "static/css/main.84fdd12a.css",
+    "static/js/main.ce2400c3.js"
   ]
 }
